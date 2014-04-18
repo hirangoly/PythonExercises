@@ -53,6 +53,11 @@ print reduce((lambda x,y:x + ' ' +y),items)
 print functools.reduce( (lambda x,y:x+y), items)
 
 
+from fractions import gcd
+print reduce(lambda x, y: (x*y)/gcd(x,y), [100,23,98], 1)
+
+from fractions import gcd
+print reduce(lambda x, y: gcd(x,y), [100,23,98], 1)
 
 
 
