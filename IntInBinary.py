@@ -24,8 +24,11 @@ def binaryTest(n):
      return binary(n)
 		
 def main():	
+	#method1 - using list
 	IntInBinaryUsingList(12,-1)
+	#method2 - using binary function
 	print binary(12)
+	#method2.1 - binary function
 	print binaryTest(12)
 	
 if __name__ == '__main__':
