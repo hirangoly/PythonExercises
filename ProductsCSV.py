@@ -12,4 +12,7 @@ with open('products.csv') as f:
 				columns[k].append(v) # append the value into the appropriate list
 
  # based on column name k
-print(sorted(columns['price']))
+ #this will not sort the price as the price is in integer
+print sorted(olumns['price'])
+#to sort the price
+print  sorted(map(int,columns['price']))
