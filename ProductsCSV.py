@@ -13,6 +13,6 @@ with open('products.csv') as f:
 
  # based on column name k
  #this will not sort the price as the price is in integer
-print sorted(olumns['price'])
+print sorted(columns['price'])
 #to sort the price
 print  sorted(map(int,columns['price']))
